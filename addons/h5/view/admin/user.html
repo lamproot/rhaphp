@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {js href='__STATIC__/jquery/jquery-1.11.0.min.js' /}
+    {js href='__STATIC__/layui/layui.js' /}
+    {CSS href="__STATIC__/layui/css/layui.css" /}
+    {CSS href="__ADDONSTATIC__/css/style.css" /}
+</head>
+{if condition="isMobile() eq true"}
+<style>
+    .layui-btn{margin-bottom: 5px;}
+</style>
+<script>
+    $(function () {
+        $('.vote_time').remove();
+        $('.bm_id').remove();
+    })
+</script>
+{/if}
+<body style="padding: 0px 10px;">
+<table class="layui-table" lay-skin="nob" lay-size="sm">
+    <thead>
+    <tr>
+        <th class="bm_id">ID</th>
+        <th>用户</th>
+        <th>级别</th>
+        <th>开始时间</th>
+        <th>截止时间</th>
+        <th>添加时间</th>
+    </tr>
+    </thead>
+    <tbody>
+    {volist name="data" id="vo"}
+    <tr>
+        <td class="bm_id">{$vo.id}</td>
+        <td>{$vo.openid}</td>
+        <td>{$vo.type}</td>
+        <td class="vote_time">{:date('Y-m-d H:i',$vo.started_at)}</td>
+        <td class="vote_time">{:date('Y-m-d H:i',$vo.stoped_at)}</td>
+        <td class="vote_time">{:date('Y-m-d H:i',$vo.created_at)}</td>
+    </tr>
+    {/volist}
+    </tbody>
+</table>
+{$data->render()}
+</body>
+<script>
+    var layer;
+    layui.use('layer',function () {
+        layer = layui.layer;
+    })
+</script>
+</html>
