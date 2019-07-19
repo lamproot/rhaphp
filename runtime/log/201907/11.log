@@ -1,0 +1,1013 @@
+---------------------------------------------------------------
+[2019-07-11T12:11:26+08:00] 192.168.100.80 GET 192.168.100.80:8086/admin/system/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001422s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.008009s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003932s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'admin/system/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'admin/system/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004347s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000954s ]
+---------------------------------------------------------------
+[2019-07-11T12:11:26+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/index/mplist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004166s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004120s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/index/mplist' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'admin/system/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.006159s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[2019-07-11T12:11:28+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003904s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004028s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.002774s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003476s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.004470s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[2019-07-11T12:11:29+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005631s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004837s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003262s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.006158s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.006008s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:31+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000580s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003135s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004894s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003179s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.004443s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002646s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:31+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/material/qrcode/mid/1.html?url=http://192.168.100.80:8086/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004812s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.015280s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.010287s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.019491s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.013468s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001912s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.003338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004579s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:37+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/app/toview/name/h5/node/h5_Admin_user/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004730s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004039s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/toview' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004884s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004336s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:37+08:00] 192.168.100.80 GET 192.168.100.80:8086/app/h5/Admin/user/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001430s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.009213s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.009767s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_user_lock_info` [ RunTime:0.007554s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_user_lock_info` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_user_lock_info` WHERE  `mpid` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.002811s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:38+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000790s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005156s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003373s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003738s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003504s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.004810s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002447s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003572s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:39+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/material/qrcode/mid/1.html?url=http://192.168.100.80:8086/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004910s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.008589s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.006195s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005658s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.001733s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:43+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004321s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.002844s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004054s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003879s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.005969s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:45+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/member/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003147s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/member/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003536s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003145s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.004659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:48+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/friends/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003377s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003684s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/friends/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003729s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.007887s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[2019-07-11T12:21:48+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/friends/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005160s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003806s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/friends/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003415s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003749s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.003197s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:14+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/friends/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005459s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004548s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/friends/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003924s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.003040s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003059s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.005324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:16+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005571s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004605s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004750s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004359s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.006625s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:18+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004294s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004374s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003243s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004367s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.007271s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:19+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/member/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004418s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004374s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/member/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.005551s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003222s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:20+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000580s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005418s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003589s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004432s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004067s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004609s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:22+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/sms/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001478s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003448s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003326s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004341s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004277s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.005173s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'sms'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:23+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/uploadjsfile/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005947s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.005224s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.005346s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004662s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'uploadjsfile'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000841s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:39+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/cloud/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003842s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004108s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003940s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.002802s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003943s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'cloud'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:47+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/sms/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005216s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.002997s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003953s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004890s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004555s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'sms'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[2019-07-11T12:22:56+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/wxpay/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004548s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004570s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004164s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003373s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004595s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[2019-07-11T12:25:08+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005120s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.002863s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004062s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004082s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.003777s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002135s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003485s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[2019-07-11T12:25:09+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/material/qrcode/mid/1.html?url=http://192.168.100.80:8086/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004306s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.007247s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004841s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005080s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[2019-07-11T12:25:11+08:00] 192.168.100.80 GET 192.168.100.80:8086/mp/mp/mpsetting/type/wxpay/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004076s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003882s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004625s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004511s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004184s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[2019-07-11T12:27:29+08:00] 111.200.62.142 POST edffeba6.ngrok.io/admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004698s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_admin` WHERE  `admin_name` = 'admin'  AND `status` = 1 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] UPDATE `rh_admin`  SET `ip` = '111.200.62.142' , `last_time` = 1562819249  WHERE  `admin_name` = 'admin' [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[2019-07-11T12:27:32+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005281s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003301s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004775s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003703s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.006281s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[2019-07-11T12:27:39+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/member/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.008043s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.006298s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/member/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.007882s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004656s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.006052s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `type` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000924s ]
+---------------------------------------------------------------
+[2019-07-11T12:27:40+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/mpsetting.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.006981s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.008605s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.002900s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.001907s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.027298s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004732s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.005959s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[2019-07-11T12:28:40+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/mpsetting/type/uploadjsfile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.006681s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.007073s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.003062s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.007127s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.006093s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004758s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'uploadjsfile'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[2019-07-11T12:28:50+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/mpsetting/type/wxpay.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005893s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004203s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003664s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003556s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004285s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[2019-07-11T12:29:17+08:00] 111.200.62.142 POST edffeba6.ngrok.io/mp/mp/mpsetting/type/wxpay.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.006254s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.006560s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004814s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005666s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004265s ]
+[ sql ] [ SQL ] DELETE FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' [ RunTime:0.000450s ]
+[ sql ] [ SQL ] INSERT INTO `rh_setting` (`name` , `mpid` , `cate` , `value`) VALUES ('wxpay' , 1 , 'mp' , '{\"appid\":\"wx86c035847e1d33eb\",\"appsecret\":\"24fce6323a79f421f55fbcb39f48da28\",\"mchid\":\"1537585081\",\"paysignkey\":\"\",\"apiclient_cert\":\"\",\"apiclient_key\":\"\",\"setting_name\":\"wxpay\"}') [ RunTime:0.001473s ]
+---------------------------------------------------------------
+[2019-07-11T12:36:37+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001162s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.006880s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.005336s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.008206s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005297s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.006279s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002589s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.002802s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[2019-07-11T12:36:38+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/material/qrcode/mid/1.html?url=http://edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000522s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004664s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.006216s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004913s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004161s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[2019-07-11T12:36:50+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005317s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003322s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003934s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003119s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.003793s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002010s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003936s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[2019-07-11T12:36:50+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/material/qrcode/mid/1.html?url=http://edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.008149s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.006333s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004878s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.007665s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[2019-07-11T12:37:37+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004439s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.006526s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.007044s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.006068s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.004401s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.003391s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004347s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[2019-07-11T12:38:14+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005476s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.003529s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000742s ]
+---------------------------------------------------------------
+[2019-07-11T12:41:11+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000701s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004986s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.003910s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000621s ]
+[ error ] [0]模板文件不存在:/Library/WebServer/documents/www/rhaphp/addons/h5/view//test/topup.html
+---------------------------------------------------------------
+[2019-07-11T12:41:43+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.006480s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.007075s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.004164s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[2019-07-11T12:41:48+08:00] 111.200.62.142 POST edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005455s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.004308s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[2019-07-11T12:42:40+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004801s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[2019-07-11T12:43:01+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/app/index/name/h5/type/news/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003800s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003254s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/app/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.005170s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003781s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5'  AND `status` = 1 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_rule` [ RunTime:0.003915s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` `r` INNER JOIN `rh_mp_reply` `p` ON `p`.`reply_id`=`r`.`reply_id` WHERE  `r`.`mpid` = '1'  AND `r`.`type` = 'news'  AND `r`.`addon` = 'h5' ORDER BY `r`.`id` DESC LIMIT 1 [ RunTime:0.002780s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp_rule` WHERE  `type` = 'addon'  AND `addon` = 'h5'  AND `mpid` = 1 LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004929s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'cloud'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[2019-07-11T12:43:02+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/material/qrcode/mid/1.html?url=http://edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.005625s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.009820s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/material/qrcode' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004821s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004670s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[2019-07-11T12:46:05+08:00] 61.129.8.179 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.004178s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[2019-07-11T12:48:45+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.005509s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[2019-07-11T13:49:31+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004337s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003336s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[2019-07-11T13:50:54+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005153s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.003634s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.001041s ]
+---------------------------------------------------------------
+[2019-07-11T13:51:04+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005102s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.004360s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[2019-07-11T13:52:52+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003877s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.004472s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000863s ]
+---------------------------------------------------------------
+[2019-07-11T13:53:09+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.006010s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[2019-07-11T13:53:14+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/home/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004429s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.003167s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[2019-07-11T13:53:44+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/index/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.003853s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004093s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003858s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005807s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp_friends` [ RunTime:0.006105s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1  AND `subscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562774400 AND 1562860800 LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562688000 AND 1562774400 LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1562515200 AND 1563120000 LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1562515200 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1561910400 AND 1564588800 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1559318400 AND 1561910400 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1546272000 AND 1577808000 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0  AND `unsubscribe_time` BETWEEN 1514736000 AND 1546272000 LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 1 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `rh_mp_friends` WHERE  `mpid` = 1  AND `subscribe` = 0 LIMIT 1 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[2019-07-11T13:53:47+08:00] 111.200.62.142 GET edffeba6.ngrok.io/mp/mp/mpsetting/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000870s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.007928s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.004950s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004667s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003574s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[2019-07-11T13:54:30+08:00] 111.200.62.142 POST edffeba6.ngrok.io/mp/mp/mpsetting/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004384s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003563s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.004060s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005802s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003981s ]
+[ sql ] [ SQL ] DELETE FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' [ RunTime:0.000923s ]
+[ sql ] [ SQL ] INSERT INTO `rh_setting` (`name` , `mpid` , `cate` , `value`) VALUES ('wxpay' , 1 , 'mp' , '{\"appid\":\"wx86c035847e1d33eb\",\"appsecret\":\"24fce6323a79f421f55fbcb39f48da28\",\"mchid\":\"1537585081\",\"paysignkey\":\"zhv0ryqjfcnvful2k4y41ageheflkjiq\",\"apiclient_cert\":\"-----BEGIN CERTIFICATE-----\\nMIID9jCCAt6gAwIBAgIUfxsHBQirTzqfYNkGqeo6I3N5gKMwDQYJKoZIhvcNAQEL\\nBQAwXjELMAkGA1UEBhMCQ04xEzARBgNVBAoTClRlbnBheS5jb20xHTAbBgNVBAsT\\nFFRlbnBheS5jb20gQ0EgQ2VudGVyMRswGQYDVQQDExJUZW5wYXkuY29tIFJvb3Qg\\nQ0EwHhcNMTkwNzExMDU1MjQzWhcNMjQwNzA5MDU1MjQzWjCBhzETMBEGA1UEAwwK\\nMTUzNzU4NTA4MTEbMBkGA1UECgwS5b6u5L+h5ZWG5oi357O757ufMTMwMQYDVQQL\\nDCrljJfkuqzlro\\/ms7Dph5HmmIzkv6Hmga\\/np5HmioDmnInpmZDlhazlj7gxCzAJ\\nBgNVBAYMAkNOMREwDwYDVQQHDAhTaGVuWmhlbjCCASIwDQYJKoZIhvcNAQEBBQAD\\nggEPADCCAQoCggEBAMBtV\\/86VwjXnnhir\\/Fyt5F07ymDptE2By7NipvrmcCEJTYb\\nsOl3K2PD5riDXcUTWMoDAIH04VDjUk9JuaiF2vMGTlUhhGh9eTexGO78+gDpMilz\\nRuEQhgfBrLmwcjMTdNubCsDBV1+aqijrpnGVFaNDnwTj06Ko9fE+U8poKyAvDq6i\\nQGdr3pP83cfWhfDkas2nIG4Ndec3bRmdNfV\\/a8ckyHPLwMi09ExV2ZdkKyvkdzBi\\nFXO6HJrDQCvApCKPVCAWk2w4XRJBroY6DBSd5D15jYufXS8j1g2UNOS+sFLdnK17\\nnybMQ5aLfkvAajplQerHIdgoo2VPyRmeGL5HJPECAwEAAaOBgTB\\/MAkGA1UdEwQC\\nMAAwCwYDVR0PBAQDAgTwMGUGA1UdHwReMFwwWqBYoFaGVGh0dHA6Ly9ldmNhLml0\\ncnVzLmNvbS5jbi9wdWJsaWMvaXRydXNjcmw\\/Q0E9MUJENDIyMEU1MERCQzA0QjA2\\nQUQzOTc1NDk4NDZDMDFDM0U4RUJEMjANBgkqhkiG9w0BAQsFAAOCAQEAsXQuTfz7\\nEN+t9YoJsg\\/RNZLJWlnDoPG8CebVhLJA22nDyHvYQl1julKjHJZRkxWGPj2K\\/Y9N\\nAEg4rPZYDAMHDjNNi9Zbf9Wnu1oO1DFGDJRegotRuXm690aUhx4Nlx7uukO9i4d8\\n75CRiLVbNWYpXf+O2r595BvzEEjQXtkqO5SReIQ9CWkuZzKRn4xJXQdx7tDzIUvF\\naOvEqnKyJiiMo0ozdtyd\\/n0uOcLnitZG+LCoPN16OCaa0abojQJ4jMlEh1C+pDat\\nU7MP6lNjRXQY3vHUWfYCWRGyChyVrVuQvwAGhyPEYFsdg9hfcou4R6NByE61VuH3\\nOzuh+GY0UuNMvw==\\n-----END CERTIFICATE-----\",\"apiclient_key\":\"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAbVf\\/OlcI1554\\nYq\\/xcreRdO8pg6bRNgcuzYqb65nAhCU2G7Dpdytjw+a4g13FE1jKAwCB9OFQ41JP\\nSbmohdrzBk5VIYRofXk3sRju\\/PoA6TIpc0bhEIYHway5sHIzE3TbmwrAwVdfmqoo\\n66ZxlRWjQ58E49OiqPXxPlPKaCsgLw6uokBna96T\\/N3H1oXw5GrNpyBuDXXnN20Z\\nnTX1f2vHJMhzy8DItPRMVdmXZCsr5HcwYhVzuhyaw0ArwKQij1QgFpNsOF0SQa6G\\nOgwUneQ9eY2Ln10vI9YNlDTkvrBS3Zyte58mzEOWi35LwGo6ZUHqxyHYKKNlT8kZ\\nnhi+RyTxAgMBAAECggEBAJu44Tme0MhLFed+lbvjhkKkStdhvyIXgwCRPdaodyig\\nyCxdhHGrCuYVpyUyyjOuUHBKtaJ1tdFr5TRdCW4jxOhe9g1WrnyQ7gPvwanF99u8\\n2+dHbti8MnscdNdgv0ouOKdvdOhAjqDD3Wh4K55Hc9dH5exjIuXDriSot85ZNm03\\nvgRSXUPoZWHFd24ihlI575I9WHqNfWd6l+uKz2w4fz7vjn63o3uh\\/04i0lBI8fZ6\\n+jbOnbehNkWEYTdfaPn9AFbzOmFMiZWDv9sKdjDroobB\\/wX6JtD3I0XNj8tooJCP\\nOTO+me3fG\\/OejRn0mDESRvhxsKvwlb3rYu4B2j6TbzECgYEA+bCFFbiAsadyvWSh\\nUvYk3ZavhyE3hYqida7DlQkRUS+F4fP1ZruZl+DNLJ4OxSxACoUV6yhdbJXizk9O\\ntV0oFCdp3flCyzQAaXXWdaUXiOPE5YCUb4SL4lOXBAFXv+AvKaj5Ya+0MnwVGaW6\\nI0vV3CSDpogiBpSEcIPKBMZCi48CgYEAxUpWsiJ8dZFzoJeZbEL6FW3kmzZLT22D\\nxCojFHIiyY+TQD\\/mQCnFhj1g3HSso4jqQcJJ9iwWvwIGlV56npRpCMVlSI0qOiTH\\nglow4TyGSENOafMsOvCX+GAH3EIaorWuEu2wJUU8lotrXXHAJDB726deQYlJRhLX\\nHp30AvndB38CgYAYuPKkcO1FKdhBimoyxa5mxlnA3ngZ390wG8q\\/wfMV\\/8eY1Mfy\\nkRanJBoMleXOfhAlOoIuE4QUkU6wsMeRS5UBUdm4ocqMRizYRFOkuGD5K9w+ARox\\nZIVZNn+YZO2kUPU6gcGXe4czDHgmXvNsNUEKmA70+TutPR1T6qihCmRiXwKBgA0j\\n52RT8bAu8OGYV0qjp154BErmMdvncmhFWjLJa1G7c1ZLKz3IynQncGUejEUUIG4i\\nz6RKyXUNYHzgXxBi2CASba2IYXCf9H3VHf5SdqsneHiMDr0aOzT6yGs+J+IAccim\\n9h11YBSy0oLVybNfW1CE9D0vNKcrKBLM+GyeUb9nAoGBAIbbC4JgtDE32tt81Be8\\nPhxuhvMZ45FVG14qh6DxZWE\\/4uCBciZWn9mWhTDdIuXfaETyrKgkCHMezCuuRrdF\\nsXFd0RPab7cvybhjD+meAS6gidK6xy2SwC6hj6iUjoBVD5SK\\/s0iYHl24cGYEKIi\\n1lAmhBu5IO1loCbh2SEazr3e\\n-----END PRIVATE KEY-----\",\"setting_name\":\"wxpay\"}') [ RunTime:0.002714s ]
+---------------------------------------------------------------
+[2019-07-11T13:54:31+08:00] 111.200.62.142 POST edffeba6.ngrok.io/mp/mp/mpsetting/mid/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_admin` [ RunTime:0.004596s ]
+[ sql ] [ SQL ] SELECT `password` FROM `rh_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_menu` [ RunTime:0.003477s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0 ORDER BY `sort` ASC [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` ORDER BY `sort` ASC [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `url` = 'mp/mp/mpsetting' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_menu` WHERE  `pid` = 0  AND `url` = 'mp/mp/index' ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.003312s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `status` = 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `user_id` = 1  AND `is_use` = 1 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003258s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `menu_show` = 1  AND `status` = 1 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.003104s ]
+[ sql ] [ SQL ] DELETE FROM `rh_setting` WHERE  `name` = 'wxpay'  AND `mpid` = 1  AND `cate` = 'mp' [ RunTime:0.001635s ]
+[ sql ] [ SQL ] INSERT INTO `rh_setting` (`name` , `mpid` , `cate` , `value`) VALUES ('wxpay' , 1 , 'mp' , '{\"appid\":\"wx86c035847e1d33eb\",\"appsecret\":\"24fce6323a79f421f55fbcb39f48da28\",\"mchid\":\"1537585081\",\"paysignkey\":\"zhv0ryqjfcnvful2k4y41ageheflkjiq\",\"apiclient_cert\":\"-----BEGIN CERTIFICATE-----\\nMIID9jCCAt6gAwIBAgIUfxsHBQirTzqfYNkGqeo6I3N5gKMwDQYJKoZIhvcNAQEL\\nBQAwXjELMAkGA1UEBhMCQ04xEzARBgNVBAoTClRlbnBheS5jb20xHTAbBgNVBAsT\\nFFRlbnBheS5jb20gQ0EgQ2VudGVyMRswGQYDVQQDExJUZW5wYXkuY29tIFJvb3Qg\\nQ0EwHhcNMTkwNzExMDU1MjQzWhcNMjQwNzA5MDU1MjQzWjCBhzETMBEGA1UEAwwK\\nMTUzNzU4NTA4MTEbMBkGA1UECgwS5b6u5L+h5ZWG5oi357O757ufMTMwMQYDVQQL\\nDCrljJfkuqzlro\\/ms7Dph5HmmIzkv6Hmga\\/np5HmioDmnInpmZDlhazlj7gxCzAJ\\nBgNVBAYMAkNOMREwDwYDVQQHDAhTaGVuWmhlbjCCASIwDQYJKoZIhvcNAQEBBQAD\\nggEPADCCAQoCggEBAMBtV\\/86VwjXnnhir\\/Fyt5F07ymDptE2By7NipvrmcCEJTYb\\nsOl3K2PD5riDXcUTWMoDAIH04VDjUk9JuaiF2vMGTlUhhGh9eTexGO78+gDpMilz\\nRuEQhgfBrLmwcjMTdNubCsDBV1+aqijrpnGVFaNDnwTj06Ko9fE+U8poKyAvDq6i\\nQGdr3pP83cfWhfDkas2nIG4Ndec3bRmdNfV\\/a8ckyHPLwMi09ExV2ZdkKyvkdzBi\\nFXO6HJrDQCvApCKPVCAWk2w4XRJBroY6DBSd5D15jYufXS8j1g2UNOS+sFLdnK17\\nnybMQ5aLfkvAajplQerHIdgoo2VPyRmeGL5HJPECAwEAAaOBgTB\\/MAkGA1UdEwQC\\nMAAwCwYDVR0PBAQDAgTwMGUGA1UdHwReMFwwWqBYoFaGVGh0dHA6Ly9ldmNhLml0\\ncnVzLmNvbS5jbi9wdWJsaWMvaXRydXNjcmw\\/Q0E9MUJENDIyMEU1MERCQzA0QjA2\\nQUQzOTc1NDk4NDZDMDFDM0U4RUJEMjANBgkqhkiG9w0BAQsFAAOCAQEAsXQuTfz7\\nEN+t9YoJsg\\/RNZLJWlnDoPG8CebVhLJA22nDyHvYQl1julKjHJZRkxWGPj2K\\/Y9N\\nAEg4rPZYDAMHDjNNi9Zbf9Wnu1oO1DFGDJRegotRuXm690aUhx4Nlx7uukO9i4d8\\n75CRiLVbNWYpXf+O2r595BvzEEjQXtkqO5SReIQ9CWkuZzKRn4xJXQdx7tDzIUvF\\naOvEqnKyJiiMo0ozdtyd\\/n0uOcLnitZG+LCoPN16OCaa0abojQJ4jMlEh1C+pDat\\nU7MP6lNjRXQY3vHUWfYCWRGyChyVrVuQvwAGhyPEYFsdg9hfcou4R6NByE61VuH3\\nOzuh+GY0UuNMvw==\\n-----END CERTIFICATE-----\",\"apiclient_key\":\"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAbVf\\/OlcI1554\\nYq\\/xcreRdO8pg6bRNgcuzYqb65nAhCU2G7Dpdytjw+a4g13FE1jKAwCB9OFQ41JP\\nSbmohdrzBk5VIYRofXk3sRju\\/PoA6TIpc0bhEIYHway5sHIzE3TbmwrAwVdfmqoo\\n66ZxlRWjQ58E49OiqPXxPlPKaCsgLw6uokBna96T\\/N3H1oXw5GrNpyBuDXXnN20Z\\nnTX1f2vHJMhzy8DItPRMVdmXZCsr5HcwYhVzuhyaw0ArwKQij1QgFpNsOF0SQa6G\\nOgwUneQ9eY2Ln10vI9YNlDTkvrBS3Zyte58mzEOWi35LwGo6ZUHqxyHYKKNlT8kZ\\nnhi+RyTxAgMBAAECggEBAJu44Tme0MhLFed+lbvjhkKkStdhvyIXgwCRPdaodyig\\nyCxdhHGrCuYVpyUyyjOuUHBKtaJ1tdFr5TRdCW4jxOhe9g1WrnyQ7gPvwanF99u8\\n2+dHbti8MnscdNdgv0ouOKdvdOhAjqDD3Wh4K55Hc9dH5exjIuXDriSot85ZNm03\\nvgRSXUPoZWHFd24ihlI575I9WHqNfWd6l+uKz2w4fz7vjn63o3uh\\/04i0lBI8fZ6\\n+jbOnbehNkWEYTdfaPn9AFbzOmFMiZWDv9sKdjDroobB\\/wX6JtD3I0XNj8tooJCP\\nOTO+me3fG\\/OejRn0mDESRvhxsKvwlb3rYu4B2j6TbzECgYEA+bCFFbiAsadyvWSh\\nUvYk3ZavhyE3hYqida7DlQkRUS+F4fP1ZruZl+DNLJ4OxSxACoUV6yhdbJXizk9O\\ntV0oFCdp3flCyzQAaXXWdaUXiOPE5YCUb4SL4lOXBAFXv+AvKaj5Ya+0MnwVGaW6\\nI0vV3CSDpogiBpSEcIPKBMZCi48CgYEAxUpWsiJ8dZFzoJeZbEL6FW3kmzZLT22D\\nxCojFHIiyY+TQD\\/mQCnFhj1g3HSso4jqQcJJ9iwWvwIGlV56npRpCMVlSI0qOiTH\\nglow4TyGSENOafMsOvCX+GAH3EIaorWuEu2wJUU8lotrXXHAJDB726deQYlJRhLX\\nHp30AvndB38CgYAYuPKkcO1FKdhBimoyxa5mxlnA3ngZ390wG8q\\/wfMV\\/8eY1Mfy\\nkRanJBoMleXOfhAlOoIuE4QUkU6wsMeRS5UBUdm4ocqMRizYRFOkuGD5K9w+ARox\\nZIVZNn+YZO2kUPU6gcGXe4czDHgmXvNsNUEKmA70+TutPR1T6qihCmRiXwKBgA0j\\n52RT8bAu8OGYV0qjp154BErmMdvncmhFWjLJa1G7c1ZLKz3IynQncGUejEUUIG4i\\nz6RKyXUNYHzgXxBi2CASba2IYXCf9H3VHf5SdqsneHiMDr0aOzT6yGs+J+IAccim\\n9h11YBSy0oLVybNfW1CE9D0vNKcrKBLM+GyeUb9nAoGBAIbbC4JgtDE32tt81Be8\\nPhxuhvMZ45FVG14qh6DxZWE\\/4uCBciZWn9mWhTDdIuXfaETyrKgkCHMezCuuRrdF\\nsXFd0RPab7cvybhjD+meAS6gidK6xy2SwC6hj6iUjoBVD5SK\\/s0iYHl24cGYEKIi\\n1lAmhBu5IO1loCbh2SEazr3e\\n-----END PRIVATE KEY-----\",\"setting_name\":\"wxpay\"}') [ RunTime:0.001025s ]
+---------------------------------------------------------------
+[2019-07-11T13:54:42+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/topup/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_setting` [ RunTime:0.002507s ]
+[ sql ] [ SQL ] SELECT `value` FROM `rh_setting` WHERE  `mpid` = 1  AND `name` = 'register'  AND `cate` = 'mp' LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[2019-07-11T16:10:30+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.005441s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.007800s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.007407s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000908s ]
+---------------------------------------------------------------
+[2019-07-11T16:12:04+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005154s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.007251s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000540s ]
+---------------------------------------------------------------
+[2019-07-11T16:12:13+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.005033s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.005548s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[2019-07-11T16:36:37+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.006408s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.005520s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[2019-07-11T16:37:10+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004903s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.004490s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[2019-07-11T17:11:27+08:00] 127.0.0.1 GET localhost:8086/app/touPiao/vote/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.006257s ]
+[ sql ] [ SQL ] SELECT `id`,`status` FROM `rh_addons` WHERE  `addon` = 'touPiao' LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[2019-07-11T17:36:25+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_mp` [ RunTime:0.008517s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_mp` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.003143s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.005981s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[2019-07-11T17:36:32+08:00] 111.200.62.142 GET edffeba6.ngrok.io/app/h5/test/index/mid/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;port=3306;dbname=rhaphp;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addons` [ RunTime:0.004616s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addons` WHERE  `addon` = 'h5' LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rh_addon_info` [ RunTime:0.005059s ]
+[ sql ] [ SQL ] SELECT * FROM `rh_addon_info` WHERE  `mpid` = 1  AND `addon` = 'h5' LIMIT 1 [ RunTime:0.000553s ]

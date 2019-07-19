@@ -1,4 +1,4 @@
-<?php /*a:2:{s:70:"/Library/WebServer/documents/www/rhaphp/themes/pc/mp/member/index.html";i:1562742986;s:78:"/Library/WebServer/documents/www/rhaphp/themes/pc/mp/../admin/common/base.html";i:1562753592;}*/ ?>
+<?php /*a:2:{s:70:"/Library/WebServer/documents/www/rhaphp/themes/pc/mp/member/index.html";i:1562742986;s:78:"/Library/WebServer/documents/www/rhaphp/themes/pc/mp/../admin/common/base.html";i:1562754829;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,8 +58,8 @@
 <div class="header">
     <div class="wrap">
         <div class="logo">
-            <h1 class="main-logo"><a href="<?php echo url('mp/mp/index'); ?>">RhaPHP</a></h1>
-            <div class="sub-logo"></div>
+<!--            <h1 class="main-logo"><a href="<?php echo url('mp/mp/index'); ?>"></a></h1>-->
+<!--            <div class="sub-logo"></div>-->
         </div>
         <div class="nav">
             <ul>
