@@ -13,7 +13,7 @@ return [
 // 数据库类型
 'type'            => 'mysql',
 // 服务器地址
-'hostname'        => 'rm-m5e8eto97k909781c4o.mysql.rds.aliyuncs.com',
+'hostname'        => 'rm-m5e8eto97k909781cco.mysql.rds.aliyuncs.com',
 // 数据库名
 'database'        => 'rhaphp',
 // 用户名
@@ -56,7 +56,7 @@ return [
     // 数据库类型
     'type'        => 'mysql',
     // 服务器地址
-    'hostname'    => 'rm-m5e8eto97k909781c4o.mysql.rds.aliyuncs.com',
+    'hostname'    => 'rm-m5e8eto97k909781cco.mysql.rds.aliyuncs.com',
     // 数据库名
     'database'    => 'rhaphp',
     // 数据库用户名
